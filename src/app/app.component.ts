@@ -13,10 +13,17 @@ export class AppComponent implements OnInit{
     name:'Laptop',
     category:'Electronics',
     quantity:4
+  },
+  {
+    code:'1234',
+    name:'Mobile',
+    category:'Electronics',
+    quantity:4
   }];
 
     constructor() { }
 
     ngOnInit() {
+
     }
 }
